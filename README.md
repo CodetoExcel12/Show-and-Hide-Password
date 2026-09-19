@@ -10,11 +10,6 @@ A small interactive password field with a toggle button that switches between hi
 - Null-safe DOM access, so the script won't crash if an element is missing
 - Written in strict TypeScript
 
-## 🚀 Live Demo
-
-<!-- After enabling GitHub Pages, replace the link below -->
-https://YOUR-USERNAME.github.io/show-and-hide-password/
-
 ## 🛠️ Tech Stack
 
 | Technology | Purpose |
@@ -34,11 +29,10 @@ show-and-hide-password/
 │   ├── code.js.map
 │   ├── code.d.ts
 │   └── code.d.ts.map
-├── index.html         # The page
+├── code.html          # The page
 ├── package.json
 ├── tsconfig.json
 ├── .gitignore
-├── LICENSE
 └── README.md
 ```
 
@@ -53,7 +47,7 @@ show-and-hide-password/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/CodetoExcel12/show-and-hide-password.git
+git clone https://github.com/YOUR-USERNAME/show-and-hide-password.git
 
 # 2. Move into the project folder
 cd show-and-hide-password
@@ -76,7 +70,7 @@ npx tsc -w
 
 ### Run the project
 
-Open `index.html` with **Live Server** (right-click the file → *Open with Live Server*).
+Open `code.html` with **Live Server** (right-click the file → *Open with Live Server*).
 
 > ⚠️ The script is loaded as an ES module (`type="module"`), so the page must be served over `http://`. Double-clicking the HTML file (`file:///...`) won't work.
 
@@ -116,12 +110,13 @@ The HTML loads the compiled output:
 | Nothing works when opening the file directly | Use Live Server instead of `file:///` |
 | Old behavior after edits | Hard refresh with `Ctrl + Shift + R` |
 
+## 🔮 Possible Improvements
 
-## 📄 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+- Update the button's `aria-label` when toggling (better screen-reader support)
+- Add a password strength meter
+- Add a matching "confirm password" field
 
 ## 👤 Author
 
-**Abhinav Jadala**
-GitHub: [@CodetoExcel12](https://github.com/CodetoExcel12)
+**YOUR NAME**
+GitHub: [@YOUR-USERNAME](https://github.com/YOUR-USERNAME)
