@@ -1,3 +1,7 @@
+# Site is Live 
+Check this mini project functioning through the deployed link 
+https://codetoexcel12.github.io/Show-and-Hide-Password/
+
 # 👁️ Show and Hide Password
 
 A small interactive password field with a toggle button that switches between hidden and visible text. Built with **TypeScript**, plain HTML and CSS, with no frameworks or runtime dependencies.
